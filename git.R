@@ -1,0 +1,7 @@
+usethis::create_project("~/Desktop/Dtoma3.io")
+usethis::use_git()
+usethis::git_default_branch_rename(to = "gh-pages")
+usethis::create_github_token()
+gitcreds::gitcreds_set()
+args(usethis::use_github)
+usethis::use_github()
